@@ -14,7 +14,7 @@ def hows_the_weather(temperature):
         return "It's a little chilly out there!"
     elif temperature == 99:
         return "It's too dang hot out there!"
-    elif temperature == 75 :
+    else:
         return "It's perfect out there!"
 
 def fizzbuzz(num):
